@@ -1,0 +1,151 @@
+{
+  "parentCategories": [{
+      "id": "1",
+      "name": "Shopping"
+    },
+    {
+      "id": "2",
+      "name": "Bills and utilities"
+    },
+    {
+      "id": "3",
+      "name": "Education"
+    },
+    {
+      "id": "4",
+      "name": "Entertainment"
+    }
+  ],
+  "categories": [{
+      "id": "1",
+      "name": "Internet",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "2",
+      "name": "Mobile phone",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Rent",
+      "parentCategoryId": "2"
+    },
+    {
+      "id": "4",
+      "name": "Alcohol",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "5",
+      "name": "Grocery",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "6",
+      "name": "Chemistry",
+      "parentCategoryId": "1"
+    },
+    {
+      "id": "7",
+      "name": "Udemy curse",
+      "parentCategoryId": "4"
+    },
+    {
+      "id": "8",
+      "name": "Rstaurant and pubs",
+      "parentCategoryId": "5"
+    }
+  ],
+  "budgetCategories": [{
+      "id": "1",
+      "budget": 120.47,
+      "categoryId": "1",
+      "budgetId": "1"
+    },
+    {
+      "id": "2",
+      "budget": 39.99,
+      "categoryId": "2",
+      "budgetId": "1"
+    },
+    {
+      "id": "3",
+      "budget": 723,
+      "categoryId": "3",
+      "budgetId": "1"
+    },
+    {
+      "id": "4",
+      "budget": 30,
+      "categoryId": "4",
+      "budgetId": "1"
+    },
+    {
+      "id": "5",
+      "budget": 450,
+      "categoryId": "5",
+      "budgetId": "1"
+    },
+    {
+      "id": "6",
+      "budget": 80,
+      "categoryId": "6",
+      "budgetId": "1"
+    }
+  ],
+  "budgets": [{
+    "id": "1",
+    "name": "April",
+    "totalAmount": 2400
+  }],
+  "transactions": [{
+      "id": "1",
+      "descriptions": "Internet provider",
+      "amount": 120.47,
+      "categoryId": "1",
+      "date": "2019-12-15T20:39:41.768Z",
+      "budgetId": "1"
+    },
+    {
+      "id": "2",
+      "descriptions": "Mobile network provider",
+      "amount": 39.99,
+      "categoryId": "2",
+      "date": "2019-12-10T13:33:21.768Z",
+      "budgetId": "1"
+    },
+    {
+      "id": "3",
+      "descriptions": "Weekly shoping",
+      "amount": 23.88,
+      "categoryId": "6",
+      "date": "2019-12-17T15:41:01.768Z",
+      "budgetId": "1"
+    },
+    {
+      "id": "4",
+      "descriptions": "Weekly shoping #2",
+      "amount": 12.48,
+      "categoryId": "6",
+      "date": "2019-12-17T17:41:01.768Z",
+      "budgetId": "1"
+    },
+    {
+      "id": "5",
+      "descriptions": "Dinner in a restaurant",
+      "amount": 35.68,
+      "categoryId": "null",
+      "date": "2019-12-27T15:41:01.768Z",
+      "budgetId": "1"
+    },
+    {
+      "id": "p1tYW2Q",
+      "descriptions": "Default Agili Workflow",
+      "amount": 123,
+      "categoryId": 2,
+      "date": "2019-12-22",
+      "budgetId": "1"
+    }
+  ]
+}
